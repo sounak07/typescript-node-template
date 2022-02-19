@@ -18,6 +18,7 @@
     "noImplicitAny": false,
     "noImplicitThis": false,
     "strict": true,
+    "skipLibCheck": true,
     "strictNullChecks": false,
     "lib": [
       "ES2020.Promise",
@@ -25,5 +26,6 @@
   },
   "include": [
     "src/**/*",
+    "test/**/*"
   ]
 }
